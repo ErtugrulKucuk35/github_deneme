@@ -10,3 +10,4 @@ printf("Merhaba git ve github");
 
 return 0 ;
 }
+//Ertugrul Kucuk...
