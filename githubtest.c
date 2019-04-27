@@ -1,11 +1,11 @@
 #include<stdio.h>
-
 int main (){
-int a;
-printf("iki adet sayi giriniz...\n");
-scanf("%d",&a);
-if (a<=65 && a>=18)printf("girilen aralık 65 ve 18 aralıgında\n ");
-else printf("girilen value 65 ve 18 aralıgında degildir !!!!\n");
-  return 0 ;
+int bolunen , bolen ;
+printf ("iki sayi giriniz\n");
+scanf("%d %d",&bolunen,&bolen);
+if(bolunen != 0 && bolen != 0) printf("verilen sayıların bolumu = %f\n",(float)bolunen/bolen); 
+else printf("bolunen sayi hatali\n");
+return 0 ;
 }
-//Ertugrul kucuk ...
+
+
